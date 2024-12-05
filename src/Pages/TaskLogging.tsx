@@ -7,8 +7,15 @@ const TaskLogging: React.FC = () => {
       <div className="notificationsFrame">
         <div className="panel">
           <>
-            <Header />
-            <Content />
+            <Header title ="Registro de tareas"/>
+            <Content/>
+            <br />
+            <Header title ="Perfil"/>
+            <br />
+            <Header title ="Preferencias"/>
+            <br />
+            <Header title ="Chat"/>
+            
           </>
         </div>
       </div>
